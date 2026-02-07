@@ -32,6 +32,31 @@ Switched to branch 'dev-branch'
  git push original -u dev-branch ( create branch in remote server)
 
 
+$ git branch
+* master
+
+git branch -r  (remote)
+
+
+ git branch -a (all)
+
+ git branch dev-branch (create branch)
+
+$ git checkout dev-branch
+Switched to branch 'dev-branch'
+
+ git push original -u dev-branch ( create branch in remote server)
+
+ 
+//Update in local server
+$ git fetch
+
+//Update in local file
+$ git merge
+
+
+git pull =(git merge+git fetch)
+
 
 
 
