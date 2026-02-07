@@ -1,0 +1,38 @@
+ ls
+git init
+git status
+
+git add index.html
+
+
+git add *.css
+
+git commit -m "init commit"
+
+git remote -v
+
+git remote add original https://github.com/hewagehasintha-commits/Git--Practical.git
+
+git push original  -u master (ask for credential)
+
+
+$ git branch
+* master
+
+git branch -r  (remote)
+
+
+ git branch -a (all)
+
+ git branch dev-branch (create branch)
+
+$ git checkout dev-branch
+Switched to branch 'dev-branch'
+
+ git push original -u dev-branch ( create branch in remote server)
+
+
+
+
+
+
